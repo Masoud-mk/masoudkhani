@@ -29,6 +29,9 @@ class Education(models.Model):
     level = models.CharField(max_length=40)
     description = models.TextField(max_length=250)
 
+    def __str__(self):
+        return '{}'.format(self.diuration)
+
 
 class Info(models.Model):
     about = models.TextField(max_length=250)
@@ -37,3 +40,16 @@ class Info(models.Model):
     phone = models.CharField(max_length=50)
     address = models.CharField(max_length=50)
     language = models.CharField(max_length=50)
+
+    def __str__(self):
+        return '{}'.format(self.email)
+
+    
+class Refrences(models.Model):
+    image = models.ImageField()
+    name = models.CharField(max_length=50)
+    position = models.CharField(max_length=50)
+    text = models.TextField()
+
+    def __str__(self):
+        return '{}'.format(self.name)
