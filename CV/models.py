@@ -38,13 +38,32 @@ class Info(models.Model):
     age = models.IntegerField()
     email = models.CharField(max_length=50)
     phone = models.CharField(max_length=50)
-    address = models.CharField(max_length=50)
+    address = models.CharField(max_length=100)
     language = models.CharField(max_length=50)
+    cv = models.FileField()
 
     def __str__(self):
         return '{}'.format(self.email)
 
-    
+
+class social_network(models.Model):
+    name = models.CharField(max_length=50)
+    url = models.URLField()
+
+    def __str__(self):
+        return '{}'.format(self.name)
+
+
+class Portfilio(models.Model):
+    name = models.CharField(max_length=50)
+    title = models.CharField(max_length=50)
+    image = models.ImageField()
+    url = models.URLField()
+
+    def __str__(self):
+        return '{}'.format(self.name)
+
+
 class Refrences(models.Model):
     image = models.ImageField()
     name = models.CharField(max_length=50)
