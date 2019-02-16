@@ -1,5 +1,5 @@
 from django.contrib import admin
-from CV.models import Skill, WorkExperience, Education, Info, Refrences, Portfilio, social_network
+from CV.models import Skill, WorkExperience, Education, Info, Refrences, Portfilio, social_network, ContactUS
 
 # Register your models here.
 
@@ -10,3 +10,4 @@ admin.site.register(Info)
 admin.site.register(Refrences)
 admin.site.register(Portfilio)
 admin.site.register(social_network)
+admin.site.register(ContactUS)

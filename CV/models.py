@@ -48,6 +48,7 @@ class Info(models.Model):
 
 class social_network(models.Model):
     name = models.CharField(max_length=50)
+    icon = models.CharField(max_length=200)
     url = models.URLField()
 
     def __str__(self):
@@ -72,3 +73,13 @@ class Refrences(models.Model):
 
     def __str__(self):
         return '{}'.format(self.name)
+
+
+class ContactUS(models.Model):
+    name = models.CharField(max_length=100)
+    subject = models.CharField(max_length=300)
+    email = models.CharField(max_length=100)
+    message = models.TextField()
+
+    def __str__(self):
+        return '{}'.format(self.email)
