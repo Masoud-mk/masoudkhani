@@ -5407,7 +5407,7 @@ button.close {
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: -20px;
     left: 0;
     z-index: 15;
     display: -ms-flexbox;
