@@ -58,11 +58,9 @@
                             <p class="category text-white">Web Developer, Student of M.S in Computer Engineering (AI
                                 and Robotics) </p><a
                                 class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
-                                data-aos-anchor="data-aos-anchor">Hire Me</a>
-                            <a class="btn btn-primary" href="{% for i in Info %}
-                            {{ i.cv.url }}
-                            {% endfor %}
-                            " data-aos="zoom-in" data-aos-anchor="data-aos-anchor" download="CV Masoud Khani">Download
+                                data-aos-anchor="data-aos-anchor">Contact Me</a>
+                            <a class="btn btn-primary" href="{% for i in Info %}{{ i.cv.url }}{% endfor %}"
+                               data-aos="zoom-in" data-aos-anchor="data-aos-anchor" download="CV Masoud Khani">Download
                                 CV</a>
                         </div>
                     </div>
@@ -70,7 +68,8 @@
                         <div class="container">
                             <div class="button-container">
                                 {% for social in social_network %}
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="{{ social.url }}" rel="tooltip"
+                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="{{ social.url }}"
+                                       rel="tooltip"
                                        title="Follow me on {{ social.name }}"><i class="{{ social.icon }}"></i></a>
                                 {% endfor %}
                             </div>
@@ -255,7 +254,8 @@
                                 active
                                 {% endif %}">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-3 cc-reference-header"><img src="{{ Refrence.image.url }}" alt="Image"/>
+                                        <div class="col-lg-4 col-md-3 cc-reference-header"><img
+                                                src="{{ Refrence.image.url }}" alt="Image"/>
 
                                             <div class="h5 pt-2">{{ Refrence.name }}</div>
                                             <p class="category">{{ Refrence.position }}</p>

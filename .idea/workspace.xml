@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c3dafc5-72b2-4e24-8351-086bb4897f21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CV/static/CV/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CV/static/CV/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV/templates/CV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV/templates/CV/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CV/templates/CV/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2938">
-              <caret line="15" column="87" lean-forward="true" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+            <state relative-caret-position="344">
+              <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -237,7 +236,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49930555" weight="0.23113208" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49930555" visible="true" weight="0.23113208" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34583333" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
@@ -534,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CV/templates/CV/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2938">
-          <caret line="15" column="87" lean-forward="true" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
+        <state relative-caret-position="344">
+          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
         </state>
       </provider>
     </entry>
